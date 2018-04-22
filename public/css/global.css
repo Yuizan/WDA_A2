@@ -1,0 +1,227 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Microsoft YaHei', "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    position: relative;
+    background-color: lightgrey;
+}
+
+li {
+    list-style-type: none
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+a:link {
+    color: inherit
+}
+
+a:visited {
+    color: inherit
+}
+
+a:active {
+    color: inherit
+}
+
+/*
+ * Variable
+*/
+:root {
+    --subjectcolor: #444;
+    --hoverColor: #FF9900;
+    --borderColor: #5a5a5a;
+    --shadowColor: rgba(0, 0, 0, 0.16);
+    --headerHeight: 60px;
+    --minWidth: 1200px;
+    --navItemWidth: 160px;
+    --contentColor: #5a5a5a
+}
+
+header {
+    position: relative;
+    background-color: var(--subjectcolor);
+    line-height: var(--headerHeight);
+    height: calc(var(--headerHeight) * 10);
+    min-width: var(--minWidth);
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid var(--shadowColor);
+    box-shadow: 0 -2px 3px 0px var(--shadowColor);
+    height: calc(var(--headerHeight));
+    line-height: calc(var(--headerHeight));
+    min-width: var(--minWidth);
+}
+
+/* header */
+.headerDetails {
+    height: var(--headerHeight);
+    width: 210px;
+    padding-right: 20px;
+    float: right;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.largeLogo {
+    margin: 0 auto;
+    line-height: calc(var(--headerHeight) * 8);
+    width: var(--minWidth);
+    height: calc(var(--headerHeight) * 8);
+    padding-top: var(--headerHeight);
+}
+
+.largeLogo p {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    cursor: default;
+}
+
+nav {
+    width: 100%;
+    height: calc(var(--headerHeight));
+    background-color: var(--subjectcolor);
+}
+
+.navLogo {
+    margin-left: 20px;
+    width: 170px;
+    float: left;
+}
+
+.navItemList {
+    width: calc(var(--navItemWidth) * 3);
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav li a {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.headerLogin {
+    margin-right: 40px;
+    float: right;
+    color: white;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.headerFeedback {
+    float: right;
+    color: white;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.headerLogin:hover, .headerLogin:active {
+    color: var(--hoverColor);
+    text-decoration: underline;
+}
+
+.headerFeedback:hover, .headerFeedback:active {
+    color: var(--hoverColor);
+    text-decoration: underline;
+}
+
+.content {
+    margin: 0 auto;
+    width: var(--minWidth);
+    min-height: calc(100vh - var(--headerHeight) * 1.6);
+}
+
+.homeContents {
+    width: var(--minWidth);
+    height: auto;
+}
+
+.navSelected {
+    color: white;
+    text-decoration: underline;
+    height: 100%;
+    float: left;
+    line-height: calc(var(--headerHeight));
+    width: var(--navItemWidth);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.navUnselected {
+    color: lightgrey;
+    height: 100%;
+    float: left;
+    line-height: calc(var(--headerHeight));
+    width: var(--navItemWidth);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.navSelected:hover, .navSelected:active,
+.navUnselected:hover, .navUnselected:active {
+    color: var(--hoverColor);
+}
+
+/* footer */
+.copyright {
+    cursor: default;
+    width: var(--minWidth);
+    height: 100%;
+    margin: 0 auto;
+}
+
+.copyright-left {
+    float: left;
+}
+
+.copyright-right {
+    float: right;
+}
+
+.hintResult {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    color: #2ab27b;
+}
+
+.hintSpan {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}

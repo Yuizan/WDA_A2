@@ -1,0 +1,221 @@
+.manageFormTitle{
+    border-radius: 5px;
+    background-color: var(--subjectcolor);
+    border-bottom: 2px solid lightgrey;
+    height: 50px;
+    width: 100%;
+    margin-top:10px;
+
+}
+.manageFormItemPanel{
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid lightgrey;
+    height: auto;
+}
+
+.manageFormTitleUL li{
+    border-right: 2px solid lightgrey;
+}
+.manageFormTitle p{
+    font-size: 18px;
+    font-weight: bold;
+    color: lightgrey;
+}
+.manageCreateDate{
+    margin-left: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 20%;
+    float: left;
+}
+
+.manageTitle {
+    margin-left: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 50%;
+    float: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.manageStatus{
+    margin-left: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 20%;
+    float: left;
+}
+
+.manageRest{
+    float: left;
+}
+
+/*
+    form
+*/
+.formItem{
+    width: 100%;
+    border-bottom: 2px solid lightgrey;
+}
+
+.formInfo{
+    height: 48px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+}
+
+.formDetail{
+    height: 180px;
+    width: calc(100% - 10px);
+    padding: 5px 5px 5px 5px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.formComment{
+    height: 100%;
+    float:left;
+    width:50%;
+}
+
+.formReplay{
+    height: 100%;
+    float:left;
+    width:50%;
+}
+
+.formReplay span{
+    float: left;
+}
+.manageFormItemPanel p{
+    font-size: 16px;
+}
+
+.formMoreBtn{
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-left:25px;
+
+}
+
+.formMoreBtn:hover::before{
+    font-size: 22px;
+    position: relative;
+    content:"\5B";
+    color: black;
+    font-family: serif;
+    font-weight: bolder;
+    line-height: 22px;
+    left: -15px;
+}
+
+.formMoreBtn:hover::after{
+    font-size: 22px;
+    position: relative;
+    content: "\5D";
+    color: black;
+    font-family: serif;
+    font-weight: bolder;
+    line-height: 22px;
+    right: -15px;
+}
+
+.formComment p{
+    font-size: 18px;
+    font-weight: bold;
+    width: 150px;
+    float: left;
+}
+
+.formCommentDisplay{
+     padding-top: 10px;
+     padding-right: 50px;
+     width: calc(100% - 50px);
+     height: calc(100% - 40px);
+     overflow-y: auto;
+     overflow-x: hidden;
+ }
+
+.formCommentDisplay span{
+    font-size: 16px;
+}
+.formCommentTA{
+    border-radius: 10px;
+    padding-left: 5px;
+    width: calc(100% - 50px);
+    height: calc(100% - 40px);
+    font-size: 16px;
+}
+
+.formEditSubmit{
+    width:100%;
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+.formEditBtn {
+    height: 30px;
+    line-height: 28px;
+    background-color: var(--subjectcolor);
+    border: 1px solid var(--subjectcolor);
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top:5px;
+    border-radius: 5px;
+    width: 80px;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.formEditBtn:hover{
+    background-color: grey;
+}
+
+.formStatusRadio{
+    line-height: 40px;
+    margin-top:12px;
+    float: right;
+    margin-left: 20px;
+}
+
+.formStatusSpan{
+    line-height: 40px;
+    float: right;
+}
+
+.formUserInfo{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.formUserInfo ul{
+    width: 100%;
+    height: 50px;
+}
+
+.formUserInfo li{
+    line-height: 50px;
+    width: calc(33% - 5px);
+    margin-left: 5px;
+    float: left;
+}
+
+.formUserInfo p{
+    float: left;
+    width: 35%;
+    font-weight: bold;
+}
+
+.formUserInfo span{
+    margin-left: 5px;
+    float: left;
+}

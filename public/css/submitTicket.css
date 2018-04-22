@@ -1,0 +1,195 @@
+.formPersonalDetails{
+    width: calc(var(--minWidth) - 210px);
+    height: auto;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding-right:200px;
+    padding-left: 10px;
+
+}
+
+.formHeader{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+
+}
+
+.formControlButton{
+    height:40px;
+    width: 40px;
+    float: left;
+}
+
+.formControlButton a{
+    display: inline-block;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    font-size: 43px;
+    line-height: 25px;
+    text-align: center;
+    border: 5px solid var(--subjectcolor);
+    color: var(--subjectcolor);
+    border-radius: 5px;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.formControlButton a:hover{
+    border: 5px solid grey;
+    color: grey;
+}
+
+.formTitle{
+    float: left;
+    width: 800px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.formTitle span{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+}
+.formTitle p{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+
+
+.personalFormInput{
+    width:100%;
+    height: 270px;
+}
+
+.formInputLayoutLeft{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.formInputLayoutRight{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.formBasicLayout{
+    height: 60px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.formBasicLayout p{
+    color: var(--borderColor);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.formBasicLayout label{
+    color: var(--borderColor);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.textAreaBasicLayout label{
+    color: var(--borderColor);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formBasicLayout span{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.textAreaBasicLayout span{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.formBasicLayout input{
+    height: 30px;
+    font-size: 20px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left:12px;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.emailInput{
+    width: 94%;
+}
+
+.textAreaBasicLayout{
+    height: 250px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.titleEmailInput{
+    width: 97%;
+}
+.textAreaBasicLayout textarea{
+    width: 97%;
+    height: 200px;
+    font-size: 20px;
+    padding-left:12px;
+
+}
+
+.formSubmit{
+    position: fixed;
+    height: 60px;
+    width: 150px;
+    padding:2px 5px 2px 5px;
+    border:1px solid black;
+    border-radius: 5px;
+    top:620px;
+    left: 0px;
+}
+
+.formSubmit p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.submitLabel, .submitBtn{
+    width: 100%;
+    height: 50%;
+
+}
+
+.submitBtn input{
+    height: 90%;
+    width: 100%;
+    background-color: var(--subjectcolor);
+    border:1px solid var(--subjectcolor);
+    color: white;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.submitBtn input:hover{
+    background-color: grey;
+}
